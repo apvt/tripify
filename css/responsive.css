@@ -1,0 +1,21 @@
+/* kindel or tables */
+@media(min-width:600px){
+    
+}
+/* resposive for kindel or tablets end*/
+/* responsive for laptops start */
+@media(min-width:1000px){
+    .menu-btn{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 70%;
+        
+    }
+    .menu ul{
+        display: flex;
+        justify-content: end;
+    }
+}
+/* responsive for laptops end */
